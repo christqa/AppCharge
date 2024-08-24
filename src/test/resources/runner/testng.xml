@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="AppCharge">
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter"/>
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+        <listener class-name="AppCharge.listeners.CustomListeners"></listener>
+	</listeners>
+
+
+	<test name="ClickSearchField Test">
+		<classes>
+			<class name="AppCharge.TestCases.BuyProductTest"></class>
+		</classes>
+	</test>
+
+	<test name="ClickSearchField Test">
+		<classes>
+			<class name="AppCharge.TestCases.BundleTest"></class>
+		</classes>
+	</test>
+
+</suite> <!-- Suite -->
