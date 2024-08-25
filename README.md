@@ -68,4 +68,15 @@ src/test/resources - Contains TestNG configuration files and other resources.
 TestNG generates an HTML report after test execution. You can find the reports in the test-output and Targets directories. 
 
 
+##Tests' description
+
+BundleTest- Login to Dashboard, Attach Product to the Bundle and save the Bundle.
+BuyProductTest-Login to store, select an offer and buy it
+
+##FRAMEWORK SELECTION:
+
+DDF is selected to implement the tests:
+Since there are lots of forms, input fields in the project-it is conveniant to store the data in documents(Excel sheets) to optimize the code and to manipulate with data easily
+See excel sheet in the folder src/test/resources/excel/AddCredentials
+
 
