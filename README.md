@@ -51,7 +51,9 @@ This commands will execute all TestNG tests as configured in the testng.xml file
 ## Directory Structure:
 
 src/main/java - Contains the source code for the application.
+
 src/test/java - Contains test classes and test data(see test classes here).
+
 src/test/resources - Contains TestNG configuration files and other resources.
 
 ## Reporting
