@@ -45,7 +45,10 @@ The TestNG XML configuration file is located at src/test/resources/testng.xml. Y
 You can run the tests using Maven from the command line:
 
 
-mvn test
+$ mvn test for all tests
+
+$ mvn test -Dtest="classname" for individual tests
+
 
 OR righ click on testng.xml and select Run [testng document]
 
@@ -63,4 +66,6 @@ src/test/resources - Contains TestNG configuration files and other resources.
 
 ## Reporting
 TestNG generates an HTML report after test execution. You can find the reports in the test-output and Targets directories. 
+
+
 
