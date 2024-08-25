@@ -18,8 +18,8 @@ Before running the tests, ensure you have the following installed:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/project.git
-   cd selenium-java-maven-testng
+   git clone https://github.com/yourusername/AppCharge.git
+   cd AppCharge
    
 
 ## Install dependencies:
